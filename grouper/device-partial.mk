@@ -14,7 +14,6 @@
 
 # Asus blob(s) necessary for Grouper hardware
 PRODUCT_PACKAGES := \
-    sensors-config \
     camera.tegra3 \
     sensors.grouper \
     libsensors.lightsensor \
