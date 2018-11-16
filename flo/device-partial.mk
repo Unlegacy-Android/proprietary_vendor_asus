@@ -14,6 +14,6 @@
 
 # Asus blob(s) necessary for Flo hardware
 PRODUCT_COPY_FILES := \
-    vendor/asus/flo/proprietary/libacdbdata.so:system/vendor/lib/libacdbdata.so:asus \
-    vendor/asus/flo/proprietary/libAKM.so:system/vendor/lib/libAKM.so:asus \
+    vendor/asus/flo/proprietary/libacdbdata.so:$(TARGET_COPY_OUT_VENDOR)/lib/libacdbdata.so:asus \
+    vendor/asus/flo/proprietary/libAKM.so:$(TARGET_COPY_OUT_VENDOR)/lib/libAKM.so:asus \
 
